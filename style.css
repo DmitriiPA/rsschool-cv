@@ -1,0 +1,44 @@
+*{
+    font-family:  Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+body { 
+    background: rgb(0, 0, 0) ;
+    padding-right: 10px;
+}
+ li{
+    display: inline;
+    margin: 3px;
+    padding: 4px;
+    border: double 4px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 120%;
+}
+ .li_header {
+    background-color: rgb(237, 205, 0);
+    text-transform: capitalize;
+    font-variant:  small-caps;
+    font-weight: bolder;
+    padding-top: 90px;
+}
+ .tabl {
+    text-align: right;
+}
+  a {
+    position: relative;
+    font-weight: 800;
+    background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+  }
+  a:hover {
+        background-position: 0 100%;
+  }
+  
+  
