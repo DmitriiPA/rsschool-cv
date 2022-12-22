@@ -21,7 +21,6 @@ body {
     background-color: rgb(237, 205, 0);
     text-transform: capitalize;
     font-variant:  small-caps;
-    font-weight: bolder;
     padding-top: 90px;
 }
  .tabl {
@@ -31,14 +30,35 @@ body {
     position: relative;
     font-weight: 800;
     background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 200% 100%;
-    background-position: 100%;
-    transition: background-position 400ms ease;
+    -webkit-background-clip: text; /* вырезает градиент по тексту */ 
+    -webkit-text-fill-color: transparent; /* flip градиента */
+    background-size: 200% ;
+    background-position: 0;
   }
   a:hover {
-        background-position: 0 100%;
+        background-position:  100%;
+        transition: background-position 400ms;
   }
-  
+  .MyFoto {
+    width: 42%;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+  }
+.MyName {
+    font-weight: 600;
+    background-color:rgb(237, 205, 0);
+    padding: 50px 30px 50px 100px;
+    color: rgb(0, 0, 0);
+    right: 5%;
+    font-size: 130%;
+    position:absolute ;
+    top: 90px;    
+}
+.MyName-1 {
+    font-size: 160%;
+    text-align: center;
+    line-height: 1%;
+}
+
   
