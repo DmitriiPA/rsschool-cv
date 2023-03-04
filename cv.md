@@ -10,7 +10,8 @@
 
 ## About my
 
-I want to work with current trends and participate in their development. I want to learn a demanded and promising profession. Learning is a process, I'm always interested in learning new opportunities. I can improve my skills and achieve the desired result. And I like to see my progress.
+I would like to work with current trends and participate in their development. I am looking for a demanded and promising profession.
+Learning is a process, I'm always interested in learning new opportunities. I can improve my skills and achieve the desired result. And I like to see my progress.
 
 ## Skills
 
